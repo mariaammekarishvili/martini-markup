@@ -171,6 +171,7 @@ h1{
     color: #FFFFFF;
     opacity: 1;
     font-size: 20px;
+    margin-bottom: 20px;
 }
 .reservation>button{
     top: 329px;
@@ -187,10 +188,22 @@ h1{
     left: 1260px;
     height: 19px;
     text-align: left;
-    font: normal normal normal 15px/19px BPG ExtraSquare Mtavruli;
+    font-size: 15px;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+}
+.reservation>input,.reservation>button{
+    height: 50px;
+    width: 337px;
+}
+.inline__input{
+    display: inline;
+    width: 60px;
+    height: 50px;
+}
+.reserv__text{
+    margin: 5px;
 }
 .data{
     left: 1260px;
