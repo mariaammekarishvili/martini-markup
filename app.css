@@ -1,6 +1,8 @@
 body{
     width: 1920px;
     height: 767px;
+    /*margin: 0 auto;*/
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 header{
     padding-left: 297px;
@@ -21,18 +23,44 @@ header>span{
     border: 1px solid #DBDBDB;
     opacity: 1;
 }
+.batumi{
+    color: #54E1BC;
+    letter-spacing: 1.58px;
+    font-size: 20px;
+}
+.header__text{
+    color: white;
+    letter-spacing: 1.58px;
+    font-size: 20px;
+}
+.header__text>span{
+    color: #54E1BC;
+    letter-spacing: 1.58px;
+    font-size: 20px;
+}
 header>h2{
-    margin-left: 223px;
-    margin-right: 341px;
-    color: #FFFFFF;
+    letter-spacing: 2.26px;
+    color: #B2DBEC;
+    height: 25px;
+    font-size: 25px;
+    margin: auto 341px auto 223px  ;
 }
 header>p{
     margin-right: 34px;
     color: #FFFFFF;
 }
 
-.sel{
+.sel-blue{
     color: #54E1BC;
+    font-size: 20px;
+
+}
+.header-legn{
+    font-size: 20px;
+}
+
+header>span{
+    margin: auto;
 }
 .section_1{
     width: 1920px;
@@ -40,22 +68,31 @@ header>p{
     opacity: 1;
 }
 
+.carousel_1{
+    z-index: -1;
+}
+.carousel{
+    height: 737px;
+    wdth: 1920px;
+}
 .border_1{
     position: absolute;
     top: 30px;
     left: 0;
     width: 1920px;
-    height: 160px;
-    background: transparent linear-gradient(180deg, #1193C7 0%, #094A64 100%) 0% 0% no-repeat padding-box;
+    height: 170px;
+    background: rgba(26, 88, 113, 0.99);
     opacity: 0.75;
 }
 h1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 54px;
+    font-weight: 500;
     margin-top: 4px;
     margin-left: 820px;
     width: 275px;
     height: 69px;
     text-align: left;
-    font: normal normal normal 57px/69px BPG ExtraSquare Mtavruli;
     letter-spacing: 6.44px;
     color: #FFFFFF;
     opacity: 1;
@@ -66,7 +103,7 @@ h1{
     left: 652px;
     width: 616px;
     height: 20px;
-    z-index: 1;
+    /*z-index: 1;*/
     opacity: 0.5;
 }
 .nav_1>ul{
@@ -77,13 +114,15 @@ h1{
     color: #FFFFFF;
     opacity: 1;
 }
-.nav_1>ul>li{
+.section__list a{
     color: #FFFFFF;
     display: inline-flex;
     margin-right: 40px;
+    text-decoration: none;
+    font-size: 20px;
 }
 .l_r{
-    margin-top: 20px;
+
   }
 .log_in{
     position: absolute;
@@ -92,10 +131,11 @@ h1{
     width: 129px;
     height: 20px;
     text-align: left;
-    font: normal normal normal 16px/20px BPG ExtraSquare Mtavruli;
+    font-family: 'Bai Jamjuree', sans-serif;
     letter-spacing: 1.81px;
     color: #FFFFFF;
     opacity: 1;
+
 }
 .reg{
     position: absolute;
@@ -113,12 +153,13 @@ h1{
     position: absolute;
     top: 230px;
     left: 1230px;
-    padding-left: 30px;
     width: 412px;
     height: 470px;
-    background: transparent linear-gradient(180deg, #1193C7 0%, #094A64 100%) 0% 0% no-repeat padding-box;
+    background: rgb(26, 88, 113);
     border-radius: 10px;
-    opacity: 0.63;
+    opacity: 0.9;
+    padding: 30px;
+
 }
 .reservation>h2{
     top: 258px;
@@ -126,10 +167,10 @@ h1{
     width: 131px;
     height: 20px;
     text-align: left;
-    font: normal normal normal 16px/20px BPG ExtraSquare Mtavruli;
     letter-spacing: 1.81px;
     color: #FFFFFF;
     opacity: 1;
+    font-size: 20px;
 }
 .reservation>button{
     top: 329px;
